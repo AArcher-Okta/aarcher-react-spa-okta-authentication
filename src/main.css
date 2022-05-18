@@ -2,27 +2,71 @@ html, body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-color: #2c3e50;
   height: 100%;
-  margin: 0;
   text-align: center;
+  color:#61dafb;
+  justify-content: center;
+}
+
+hr {
+  max-width: 50%;
+}
+
+p {
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-bottom: 0.1em;
+}
+code {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 700;
+  color: white;
+}
+
+.navbarItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navlink {
+  /* margin: 0 1px; */
+  font-size: 2em;
+}
+
+na
+
+a.item {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.item:hover {
   color:#61dafb;
 }
 
 a {
-  color: #fff
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
-  color: #61dafb;
-  text-decoration: none;
+  color:#61dafb;
 }
 
 th {
   padding-left: 4em;
+  color: #fff;
 }
 
 td {
   border: 1px solid #61dafb;
   max-width: 500px;
+  color: #fff;
 }
 
 button {
@@ -61,6 +105,16 @@ button:hover {
   font-size: 1em;
   border-radius: 5px;
   border: 0.2em solid #000;
+}
+
+.information {
+  justify-content: center;
+  margin: 0em 5em;
+  padding-top: 1em;
+}
+
+.separate {
+  margin: 0 0.2em;
 }
 
 #navbar {
@@ -208,12 +262,29 @@ okta-sign-in .o-form .input-fix input[type=tel], #okta-sign-in .o-form .input-fi
   border-color: #61dafb;
 }
 
+#okta-sign-in.no-beacon .auth-content {
+  border-top: 1px solid #ddd;
+  border-radius: 0px;
+  border-width: 80%;
+}
+
+#okta-sign-in .auth-org-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 3rem;
+  max-height: 3rem;
+  max-width: 80%;
+}
+
 #okta-sign-in .auth-header {
   border: none;
-  background-image: url(logo.svg);
-  background-repeat: no-repeat;
-  background-position: center; 
-  margin-top: 2rem;
+  /* background-repeat: no-repeat;
+  background-position: center;  */
+  margin-top: 0.5rem;
+}
+
+#okta-sign-in {
+  margin-top: 2em;
 }
 
 #okta-sign-in label {

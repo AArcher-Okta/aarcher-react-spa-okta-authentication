@@ -37,7 +37,7 @@ const Profile = () => {
           {' '}
         </Header>
         <p>
-          Below is the information from your ID token which was obtained during the &nbsp;
+          Below is the information from your ID token which was obtained during the&nbsp;
           <a href="https://developer.okta.com/docs/guides/implement-auth-code-pkce">PKCE Flow</a>
           {' '}
           and is now stored in local storage.
