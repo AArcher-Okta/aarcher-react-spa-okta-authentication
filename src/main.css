@@ -26,18 +26,18 @@ code {
   color: white;
 }
 
-.navbarItems {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+li {
+  display: inline-flex;
+  margin-right: 2em;
 }
 
-.navlink {
-  /* margin: 0 1px; */
-  font-size: 2em;
+h1 {
+  color: #61dafb;
 }
 
-na
+h3, h2 {
+  color: #fff;
+}
 
 a.item {
   color: #fff;
@@ -92,6 +92,17 @@ button:hover {
   border: 0.1em solid #fff;
 }
 
+.navbarItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navlink {
+  /* margin: 0 1px; */
+  font-size: 2em;
+}
+
 .profile {
   color: #fff;
 }
@@ -127,19 +138,6 @@ ul {
   justify-content: center;
   padding-top: 1em;
   padding-bottom: 1em;
-}
-
-li {
-  display: inline-flex;
-  margin-right: 2em;
-}
-
-h1 {
-  color: #61dafb;
-}
-
-h3, h2 {
-  color: #fff;
 }
 
 .error {
